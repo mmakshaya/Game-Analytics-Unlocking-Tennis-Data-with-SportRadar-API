@@ -195,9 +195,6 @@ elif page == "🏟️ Complexes & Venues":
     venue_query = "SELECT * FROM venues"
     df_venue = execute_query(venue_query)
 
-    # Show column names for debug (optional, can comment out later)
-    # st.write("Complexes Columns:", df_complex.columns.tolist())
-    # st.write("Venues Columns:", df_venue.columns.tolist())
 
     # Sidebar Filters
     with st.sidebar:
